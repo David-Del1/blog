@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: rgba(128, 128, 128, 0.391);
+  text-align: center;
+  width: 100%;
+}
+
+.hero h2 {
+  padding-top: 20px;
+}
+
+.hero .about-txt {
+  padding: 20px;
+}
+
+.posts h3 {
+  margin: 40px 0;
+}
